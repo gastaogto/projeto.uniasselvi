@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #77767c;
+  
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+header {
+  max-width: 100%;
+  height: 53px;
+  background-color: #343434;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0px 78px;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar li a {
+  color: #77767c;
+  text-decoration: none;
+
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.navbar li a:hover {
+  color: #FFF;
+}
+
+.card {
+  width: 800px;
+  height: 300px;
+  background-color: #c89c54;
+  border-radius: 5px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 5px ;
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 10px;
+  border: none;
+  background-color: #343434;
+}
+
+.btn:hover {
+  transition: 1seg;
+  background-color: #77767c;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  border-radius: 5px;
+  
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.tech {
+  font-size: 20px;
+  font-family:'Overpass', sans-serif;
+}
+
+.icones {
+  margin-bottom: 15px;
+  font-family: 'Overpass', sans-serif;
+}
+
+.description-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.description-icons span {
+  font-family: 'Overpass', sans-serif;
+}
+
+.description-icons span i {
+  margin-right: 12px;
+}
+
+.cost-icon {
+  margin-top: 12px;
+}
+
+.salary i {
+  margin-right: 12px;
+}
+
+.description {
+  font-family: 'Overpass', sans-serif;
+}
